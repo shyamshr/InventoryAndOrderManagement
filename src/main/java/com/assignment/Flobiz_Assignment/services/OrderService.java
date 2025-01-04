@@ -44,6 +44,7 @@ public class OrderService implements IOrderService{
         double totalPrice = 0;
         for(RequestItems item:items){
             OrderItem orderItem = new OrderItem();
+            //This row will be locked for update to handle concurrent orders.
             Optional<Product> optionalProduct = productRepo.
                             findByIdForUpdateAndIsDeletedFalse(item.getProductId());
             if(optionalProduct.isEmpty()){
