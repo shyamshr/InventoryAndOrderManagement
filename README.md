@@ -6,10 +6,10 @@ This project provides a set of REST APIs for managing products, stock levels, an
 ## Prerequisites
 Before running this project, make sure you have the following software installed:
 
-* Java 11 or later (for building and running the Spring Boot application)
-* Maven (for managing project dependencies)
-* MySQL Database (for storing product and order data)
-* Postman (optional, for testing the APIs)
+* Java 17 
+* Maven 
+* MySQL Database
+* Postman
 
 ## Database Setup
 * Install MySQL, ensure that the MySQL server is running.
