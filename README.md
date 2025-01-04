@@ -46,8 +46,7 @@ Before running this project, make sure you have the following software installed
 * Spring Boot: For building the RESTful backend.
 * Spring Data JPA: For interacting with the MySQL database.
 * MySQL: Database for storing product and order data.
-* Lombok: For reducing boilerplate code in model classes (optional).
-* JUnit: For testing the application.
+* Lombok: For reducing boilerplate code in model classes.
 
 ## API Documentation(Postman)
 * https://documenter.getpostman.com/view/30333618/2sAYJ99xg7#82c5b7b3-d99b-4ce3-9cf0-198e053c9f7a
